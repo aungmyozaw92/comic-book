@@ -4,7 +4,7 @@
       <ul>
         <li>
           <a href="https://www.google.com">
-              {{ __('VOD') }}
+              {{ __('ComicBox') }}
           </a>
         </li>
         <li>
@@ -24,7 +24,7 @@
       <script>
         document.write(new Date().getFullYear())
       </script>, made with <i class="material-icons">favorite</i> by
-      <a href="https://www.google.com" target="_blank">MyMTV</a> for a better life.
+      <a href="https://www.google.com" target="_blank">ComicBox</a> for a better life.
     </div>
   </div>
 </footer>
