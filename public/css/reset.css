@@ -1,0 +1,89 @@
+/*
+ * @Author: Yan 
+ * @Date: 2020-09-17 20:20:19 
+ * @Last Modified by: Yan
+ * @Last Modified time: 2020-09-17 21:58:35
+ */
+
+ /*!
+
+ =========================================================
+ * Reset Css for html default style
+ =========================================================
+ */
+
+ :root {
+  --theme-color: #EC4737;
+  --theme-bg: #EC4737;
+  --theme-dark-bg: #1A1A1A;
+}
+
+body {   
+  font-family: "MyMuseoSans", "Roboto", "Arial", sans-serif !important;
+}
+
+.navbar {
+   margin-bottom: 0;
+   border-radius: 0;    
+}
+
+.navbar .navbar-brand {
+   padding: 0;
+   height: auto;
+}
+
+.sidebar {
+   top: 61px !important;
+   color: #fff; /* temp */
+   background-color: #000; /* temp */
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu a:hover,
+.dropdown-menu a:focus,
+.dropdown-menu a:active {
+ box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4);
+ background-color: var(--theme-bg) !important;
+ color: #FFFFFF;
+}
+
+.dropdown-divider {
+  height: 0;
+  margin: 0.5rem;
+  overflow: hidden;
+  border-top: 1px solid #e9ecef;
+}
+
+.main-panel > .content {
+ margin-top: 60px !important;
+ padding: 20px 15px !important;
+ min-height: calc(100vh - 123px) !important;
+}
+
+.form-check .form-check-input[disabled]~.form-check-sign .check {
+  border-color: #000000;
+  opacity: .8 !important;
+}
+
+.form-check .form-check-input:not(:checked)+.form-check-sign:before {
+  background: white !important;
+}
+
+.form-check .form-check-input:not(:checked)+.form-check-sign .check:after {
+  background: white !important;
+}
+
+.header-filter::before {
+ background: rgba(0, 0, 0, 0.6) !important; 
+}
+
+.card .card-body + .card-footer, .card .card-footer {
+ padding: 0;
+ padding-top: 0px;
+ margin: 0 15px;
+ border-radius: 0;
+ justify-content: space-between;
+ align-items: center;
+}
+

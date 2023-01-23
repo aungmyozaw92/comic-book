@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'MyMuseoSans';
+    src: url('../fonts/MyriadPro-Regular_0.otf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.f-18 {
+    font-size: 18px !important;
+}
+
+.f-14 {
+    font-size: 14px !important;
+}
+
+.bold {
+    font-weight: bold !important;
+}

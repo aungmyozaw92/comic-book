@@ -1,0 +1,58 @@
+/*
+ * @Author: Yan 
+ * @Date: 2020-09-17 21:08:27 
+ * @Last Modified by: Yan
+ * @Last Modified time: 2020-09-17 21:11:07
+ */
+
+ /*!
+
+ =========================================================
+ * Color Style
+ =========================================================
+ */
+ :root {
+  --theme-color: #EC4737;
+  --theme-dark: #1A1A1A;
+  --theme-dark-gray: #222;
+}
+
+.theme-dark-bg {
+ background-color: var(--theme-dark) !important;
+}
+
+.theme-darkgray-bg {
+ background-color: var(--theme-dark-gray) !important;
+}
+
+.theme-bg {
+ background-color: var(--theme-color) !important;
+}
+
+.theme-color {
+  color: var(--theme-color) !important;
+}
+
+/* For Theme Color Change */
+.content[data-color="rose"] .card-header {
+ background: linear-gradient(60deg, #ec407a, #d81b60);
+ box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 30, 99, 0.4);
+}
+
+.check-true {
+ background: #24c01e !important;
+}
+
+.light-gray-bg
+{
+ background-color: #363636 !important;
+}
+
+.dark-border
+{
+ border: 1px solid var(--theme-dark) !important;
+}
+
+.white {
+ color: #fff !important;
+}
